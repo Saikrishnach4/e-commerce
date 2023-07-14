@@ -1,0 +1,142 @@
+.sectionProducts{
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  position: absolute;
+width: 1111px;
+height: 650px;
+left: 165px;
+top: 870px;
+}
+.cardDefault{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+filter: drop-shadow(0px 4px 24px rgba(123, 123, 123, 0.15));
+}
+.productCard{
+  position: relative;
+width: 255px;
+height: 230px;
+left: 0px;
+top: 160px;
+
+}
+.cardBgIcon{
+  position: absolute;
+width: 255px;
+height: 230px;
+left: 0px;
+top: 0px;
+
+background: #F7F8FA;
+}
+.image1Icon{
+  position: absolute;
+width: 281px;
+height: 192px;
+left: -16px;
+top: -9px;
+
+}
+.bg{
+  position: absolute;
+width: 255px;
+height: 76px;
+left: 0px;
+top: 154px;
+
+background: #FFFFFF;
+}
+.mentor{
+  position: absolute;
+width: 203px;
+height: 20px;
+left: 26px;
+top: 194px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+/* or 138% */
+
+text-align: right;
+
+/* green */
+
+color: #56B280;
+}
+.subject{
+  position: absolute;
+width: 203px;
+height: 30px;
+left: 26px;
+top: 164px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+/* or 172% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.9px;
+
+color: #1D293F;
+}
+.sectionText{
+  position: absolute;
+width: 1109px;
+height: 100px;
+left: 0px;
+top: 0px;
+}
+.description{
+  position: absolute;
+  width: 1109px;
+  height: 35px;
+  left: 0px;
+  top: 65px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 153% */
+  
+  text-align: center;
+  letter-spacing: 0.1px;
+  
+  /* dark-1 */
+  
+  color: #5E6E89;
+}
+.titleH2{
+  position: absolute;
+width: 1109px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 58px;
+/* or 144% */
+
+text-align: center;
+letter-spacing: -0.9px;
+
+color: #0B254B;
+}

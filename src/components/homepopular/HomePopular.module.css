@@ -1,0 +1,121 @@
+.cardBgIcon {
+  top: 0;
+  width: 255px;
+  height: 230px;
+}
+.bg,
+.cardBgIcon,
+.image1Icon {
+  position: absolute;
+  left: 0;
+}
+.image1Icon {
+  top: 0;
+  width: 281px;
+  height: 192px;
+  object-fit: cover;
+}
+.bg {
+  top: 154px;
+  background-color: var(--color-white);
+  width: 255px;
+  height: 76px;
+}
+.mentor,
+.subject {
+  position: absolute;
+  left: 26px;
+  line-height: 27.6px;
+  font-weight: 500;
+  width: 203px;
+}
+.mentor {
+  top: 194px;
+  display: inline-block;
+  height: 20px;
+}
+.subject {
+  top: 164px;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.9px;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.cardDefault {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 24px rgba(123, 123, 123, 0.15);
+}
+.productCard,
+.productCard1,
+.productCard2,
+.productCard3 {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 255px;
+  height: 230px;
+}
+.productCard1,
+.productCard2,
+.productCard3 {
+  left: 285px;
+}
+.productCard2,
+.productCard3 {
+  left: 570px;
+}
+.productCard3 {
+  left: 855px;
+}
+.description,
+.titleH2 {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 27.6px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1109px;
+  height: 35px;
+}
+.titleH2 {
+  top: 0;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.9px;
+  line-height: 57.6px;
+  color: var(--color-darkslateblue);
+  height: 50px;
+}
+.sectionPopular,
+.sectionText {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 1109px;
+  height: 100px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--dark-1);
+  font-family: var(--font-poppins);
+}
+.sectionPopular {
+  top: 3136px;
+  left: 164px;
+  width: 1110px;
+  height: 380px;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumseagreen-100);
+  font-family: var(--font-roboto);
+}

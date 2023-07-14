@@ -1,0 +1,196 @@
+.bg,
+.navdesktopChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 75px;
+}
+.navdesktopChild {
+  top: 75.25px;
+  left: -1.25px;
+  border-top: 0.5px solid var(--color-mediumseagreen-300);
+  box-sizing: border-box;
+  width: 1440.5px;
+  height: 0.5px;
+}
+.bg1,
+.cartIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cartIcon {
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+.bg1 {
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen-100);
+  width: 11px;
+  height: 11px;
+}
+.div {
+  height: 63.64%;
+  width: 63.64%;
+  top: 18.18%;
+  left: 18.18%;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart,
+.counter,
+.div {
+  position: absolute;
+}
+.counter {
+  top: -2px;
+  left: 18px;
+  width: 11px;
+  height: 11px;
+  display: none;
+}
+.cart {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 24px;
+  left: 1244px;
+  width: 26px;
+  height: 26px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.about,
+.contactUs,
+.profile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.profile {
+  top: 20px;
+  left: 1190px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+.about,
+.contactUs {
+  top: 0;
+  left: 257px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 25px;
+}
+.about {
+  left: 122px;
+  width: 129px;
+}
+.chevrondownIcon {
+  position: absolute;
+  top: 8px;
+  left: 88px;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+.discovery {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 25px;
+}
+.chevrondownParent{
+  cursor: pointer;
+}
+.chevrondownParent,
+.contactUsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98px;
+  height: 25px;
+}
+.contactUsParent {
+  top: 25px;
+  left: 533px;
+  width: 387px;
+}
+.wordmarkIcon {
+  top: 8.21px;
+  left: 40.43px;
+  width: 85.25px;
+  height: 14.61px;
+}
+.icon,
+.logo,
+.wordmarkIcon {
+  position: absolute;
+}
+.icon {
+  top: 0.17px;
+  left: 0.49px;
+  width: 33.61px;
+  height: 33.61px;
+  overflow: hidden;
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 20px;
+  left: 165px;
+  width: 126px;
+  height: 34px;
+}
+.navdesktop,
+.navdesktopWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 75px;
+}
+.navdesktop {
+  background-color: var(--color-white);
+}
+.navdesktopWrapper {
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-roboto);
+}

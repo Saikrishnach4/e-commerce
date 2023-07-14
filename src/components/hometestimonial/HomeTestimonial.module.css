@@ -1,0 +1,128 @@
+.bg,
+.bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mediumseagreen-200);
+  width: 1440px;
+  height: 601px;
+}
+.bg1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 24px rgba(139, 167, 178, 0.16);
+}
+.author,
+.title {
+  position: absolute;
+  height: 7.8%;
+  width: 91.43%;
+  top: 82.37%;
+  left: 4%;
+  display: inline-block;
+}
+.title {
+  height: 20.34%;
+  width: 86.86%;
+  top: 60%;
+  left: 8%;
+  font-size: var(--font-size-3xl);
+  line-height: 28.8px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+}
+.imgIcon,
+.starsIcon {
+  position: absolute;
+  height: 8.14%;
+  width: 41.7%;
+  top: 44.41%;
+  right: 29.16%;
+  bottom: 47.46%;
+  left: 29.14%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.imgIcon {
+  height: 42.14%;
+  width: 35.52%;
+  top: 5.49%;
+  right: 32.24%;
+  bottom: 52.37%;
+  left: 32.24%;
+}
+.cardTestimonial {
+  position: absolute;
+  height: 91.61%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 8.39%;
+  left: 0;
+}
+.cardsTestimonial,
+.cardsTestimonial1,
+.cardsTestimonial2 {
+  position: absolute;
+  top: 217px;
+  left: 164px;
+  width: 350px;
+  height: 322px;
+}
+.cardsTestimonial1,
+.cardsTestimonial2 {
+  left: 545px;
+}
+.cardsTestimonial2 {
+  left: 924px;
+}
+.description {
+  top: 65px;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 27.6px;
+  font-weight: 500;
+  display: inline-block;
+  height: 35px;
+}
+.description,
+.sectionText,
+.titleH2 {
+  position: absolute;
+  width: 1109px;
+}
+.titleH2 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.9px;
+  line-height: 57.6px;
+  font-weight: 500;
+  color: var(--color-darkslateblue);
+  display: inline-block;
+  height: 50px;
+}
+.sectionText {
+  top: 90px;
+  left: 165px;
+  height: 100px;
+  color: var(--dark-1);
+  font-family: var(--font-poppins);
+}
+.sectionTestimonials {
+  position: absolute;
+  top: 2445px;
+  left: 0;
+  width: 1440px;
+  height: 601px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}

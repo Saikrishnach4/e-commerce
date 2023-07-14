@@ -1,0 +1,134 @@
+.bg,
+.navdesktopChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 75px;
+}
+.navdesktopChild {
+  top: 75.25px;
+  left: -1.25px;
+  border-top: 0.5px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+  width: 1440.5px;
+  height: 0.5px;
+  display: none;
+}
+.cartIcon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+.bg1 {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--green);
+  width: 11px;
+  height: 11px;
+}
+.bg1,
+.counter,
+.div {
+  position: absolute;
+}
+.div {
+  height: 63.64%;
+  width: 63.64%;
+  top: 18.18%;
+  left: 18.18%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter {
+  top: 0;
+  left: 18px;
+  width: 11px;
+  height: 11px;
+}
+.cart,
+.profileIcon {
+  position: absolute;
+  top: 22px;
+  left: 1244px;
+  width: 29px;
+  height: 28px;
+  display: none;
+}
+.profileIcon {
+  top: 20px;
+  left: 1190px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+.about,
+.contactUs {
+  position: absolute;
+  top: 0;
+  left: 257px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 25px;
+}
+.about {
+  left: 122px;
+  width: 129px;
+}
+.chevrondownIcon {
+  position: absolute;
+  top: 8px;
+  left: 88px;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+.discovery,
+.navItem {
+  position: absolute;
+  height: 25px;
+}
+.discovery {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+}
+.navItem {
+  top: 25px;
+  left: 533px;
+  width: 387px;
+  display: none;
+  font-size: var(--font-size-base);
+  color: var(--black);
+}
+.logoIcon,
+.navdesktop {
+  position: absolute;
+  top: 20px;
+  left: 165px;
+  width: 126px;
+  height: 34px;
+}
+.navdesktop {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 75px;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

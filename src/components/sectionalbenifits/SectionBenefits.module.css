@@ -1,0 +1,131 @@
+.sectionBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  width: 1440px;
+  height: 800px;
+}
+.imageIcon {
+  position: absolute;
+  top: 139px;
+  left: 735px;
+  width: 540px;
+  height: 550px;
+  object-fit: cover;
+}
+.button1 {
+  position: relative;
+  font-size: 20.65px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-25xl);
+  background-color: var(--color-mediumseagreen-100);
+  position: absolute;
+  top: 526px;
+  left: 165px;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.longBurning {
+  font-weight: 500;
+}
+.feature41 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  line-height: 28.8px;
+  display: inline-block;
+  width: 516px;
+  height: 28px;
+}
+.checkmarkCircleOutline2Icon {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.feature4 {
+  position: absolute;
+  top: 297px;
+  left: 0;
+  width: 540px;
+  height: 28px;
+}
+.checkmarkCircleOutline1Icon {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.feature1,
+.feature2,
+.feature3 {
+  position: absolute;
+  top: 259px;
+  left: 0;
+  width: 540px;
+  height: 28px;
+}
+.feature1,
+.feature2 {
+  top: 221px;
+}
+.feature1 {
+  top: 183px;
+}
+.h2Title,
+.subline {
+  position: absolute;
+  left: 0;
+  width: 350px;
+}
+.subline {
+  top: 120px;
+  line-height: 22.8px;
+  color: var(--color-mediumseagreen-100);
+  display: inline-block;
+  height: 25px;
+}
+.h2Title {
+  top: 0;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.9px;
+  line-height: 46.6px;
+  font-weight: 500;
+  color: var(--color-gray-300);
+  display: flex;
+  align-items: flex-end;
+  height: 105px;
+}
+.sectionBenefits,
+.textLeft {
+  position: absolute;
+  top: 133px;
+  left: 165px;
+  width: 540px;
+  height: 325px;
+}
+.sectionBenefits {
+  top: 1645px;
+  left: 0;
+  width: 1440px;
+  height: 800px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

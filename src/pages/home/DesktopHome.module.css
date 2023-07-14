@@ -1,0 +1,94 @@
+.bgImageIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 780px;
+  object-fit: cover;
+}
+.cardBg {
+  position: absolute;
+  top: 250px;
+  left: 355px;
+  border-radius: 2px;
+  background-color: rgba(247, 248, 250, 0.8);
+  backdrop-filter: blur(24px);
+  width: 730px;
+  height: 349px;
+}
+.button1 {
+  position: relative;
+  font-size: 20.65px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-25xl);
+  background-color: var(--color-mediumseagreen-100);
+  position: absolute;
+  top: 496px;
+  left: 565px;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description {
+  position: absolute;
+  top: 112px;
+  left: 1px;
+  line-height: 25.6px;
+  display: inline-block;
+  width: 537px;
+  height: 56px;
+}
+.p {
+  margin: 0;
+}
+.heroTitleTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.heroTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  line-height: 57.6px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+  width: 540px;
+  height: 112px;
+}
+.descriptionParent,
+.heading {
+  position: absolute;
+  top: 283px;
+  left: 449px;
+  width: 540px;
+  height: 168px;
+}
+.heading {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 780px;
+}
+.desktophome {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 4046px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-roboto);
+}
